@@ -11,3 +11,6 @@ program, what does it mean?
 Publisher dan subscriber terhubung dengan message broker yang sama melalui protokol amqp dengan parameter koneksi yang sama, hal ini membuat publisher dan listener dapat saling berkomunikasi.
 
 ![RabbitMQ](img/image.png)
+
+![Console](img/Screenshot%202024-04-22%20140916.png)
+Setelah menjalankan cargo run pada publisher dan subscriber, publisher mengirimkan 5 data melalui koneksi message broker yang akan diterima oleh subscriber dan dicetak outputnya di console 

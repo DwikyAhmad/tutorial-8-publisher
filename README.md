@@ -14,3 +14,7 @@ Publisher dan subscriber terhubung dengan message broker yang sama melalui proto
 
 ![Console](img/Screenshot%202024-04-22%20140916.png)
 Setelah menjalankan cargo run pada publisher dan subscriber, publisher mengirimkan 5 data melalui koneksi message broker yang akan diterima oleh subscriber dan dicetak outputnya di console 
+
+![Chart](img/Screenshot%202024-04-22%20141544.png)
+
+Grafik di atas menjelaskan banyaknya message dalam satuan waktu yang dihandle oleh message broker, grafik mengalami peningkatan saat menjalankan cargo run di publisher karena publisher mengirimkan data ke message broker.
